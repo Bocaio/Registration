@@ -93,3 +93,15 @@ button{
     justify-content: center;
     
 }
+.space{
+    display: flex;
+    justify-content: space-between;
+    border: 1px red solid;
+}
+.modern{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 20px;
+}
