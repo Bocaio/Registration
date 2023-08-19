@@ -1,3 +1,4 @@
+@media only screen and (orientation: landscape){
 *{
     font-family: 'Montserrat', sans-serif;
 }
@@ -55,29 +56,10 @@ hr{
     font-size: 18px;
     
 }
-#bio{
-    border: none;
-    background-color:#141E15 ;
-    color: white;
-    font-size: 15px;
-    padding: 5px;
-    height: 100px;
-}
-.outputs{
-    border: none;
-    background-color: #141E15;
-    padding: 5px;
-    color: white;
-    font-size: 15px;
-}
-button{
-    margin: 30px;
-    background-color: #141E40;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    border: 1px solid white;
-    color: white;
-}
+
+
+
+
 
 .old{
     
@@ -93,15 +75,176 @@ button{
     justify-content: center;
     
 }
-.space{
+/* .space{
     display: flex;
     justify-content: space-between;
     border: 1px red solid;
-}
+} */
 .modern{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
     margin-bottom: 20px;
+}
+.nexts{
+    color: white;
+}
+.eachs{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    line-height: 30px;
+}
+.parents{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 0.8px;
+    word-spacing: 3px;
+    font-size: 18px;
+    
+}
+.bals{
+    border: none;
+    background-color:#141E15 ;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    width: 235px;
+} 
+.submit{
+    background-color: #112397;
+    border: 1px solid white;
+    border-radius: 2px;
+    color: white;
+    font-size: 25px;
+}
+}
+
+@media only screen and (orientation: portrait) {
+    *{
+        font-family: 'Montserrat', sans-serif;
+    }
+    h1{
+        text-align: center;
+        color: white;
+        letter-spacing: 1px;
+        word-spacing: 10px;
+    }
+    p{
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        color: white;
+        letter-spacing: 0.6px;
+    }
+    .infos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        letter-spacing: 0.9px;
+        word-spacing: 3px;
+        font-size: 22px;
+        
+    }
+    .tabs{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        line-height: 38px;
+    }
+    body{
+        background-color:#141E30 ;
+    }
+    .inputs{
+        border: none;
+        background-color:#141E15 ;
+        color: white;
+        font-size: 17px;
+        padding: 7px;
+    }
+    hr{
+       border: 1px solid rgba(255, 255, 255, 0.5);
+       width:32vw;
+        color:rgba(255, 255, 255, 0.5) ;
+        margin: 50px 600px;
+    }
+    .radio{
+        
+        display: flex;
+        color: rgb(252, 251, 251);
+        justify-content: start;   
+        word-spacing: 5px;
+        font-size: 22px;
+        
+    }
+    
+    
+    
+    
+    
+    .old{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inf{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+    /* .space{
+        display: flex;
+        justify-content: space-between;
+        border: 1px red solid;
+    } */
+    .modern{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100px;
+        margin-bottom: 30px;
+    }
+    .nexts{
+        color: white;
+    }
+    .eachs{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .parents{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        letter-spacing: 0.8px;
+        word-spacing: 3px;
+        font-size: 22px;
+        
+    }
+    .bals{
+        border: none;
+        background-color:#141E15 ;
+        color: white;
+        font-size: 15px;
+        padding: 7px;
+        width: 260px;
+    }
+    .submit{
+        background-color: #141E40;
+        border: 1px solid white;
+        border-radius: 2px;
+    }
 }
